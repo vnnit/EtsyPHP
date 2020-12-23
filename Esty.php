@@ -147,7 +147,7 @@ function DOMinnerHTML(DOMNode $element)
 
                             $url_img = getStr($value,'<img src="https://i.etsystatic.com/', '"');
                             $url_img = 'https://i.etsystatic.com/'.$url_img;
-                            $url_img = str_replace("75x75","794xN",$url_img);
+                            $url_img = str_replace("75x75","fullxfull",$url_img);
                             $title = getStr($value, "<a style='text-decoration: none;","</a>");
                             $title = strip_tags("<a style='text-decoration: none;".$title);
 
